@@ -5,3 +5,9 @@ function getIt(){
     return alert("Hey!");
     });
   }
+  
+  function frameIt(){
+    $('imag').on('load', function(){
+      return 
+    }
+  }
