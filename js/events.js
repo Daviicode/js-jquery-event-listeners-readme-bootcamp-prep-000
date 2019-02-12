@@ -6,8 +6,8 @@ function getIt(){
     });
   }
   
-  function frameIt(){
+function frameIt(){
     $('imag').on('load', function(){
-      return $('imag').addClass('tasty');
-    }
-  }
+     windows.$('imag').addClass('tasty');
+    } 
+}
