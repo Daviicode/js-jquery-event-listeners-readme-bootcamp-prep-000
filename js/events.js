@@ -1,8 +1,7 @@
 //define functions here
 
-$(document).ready('click', function getIt(){
-  if ($(".p"))
-return alert("Hey!")
-});
-
-$(document).load( function  ())
+function getIt(){
+  $("p").on("click", function(){
+    window.alert("Hey!");
+    });
+  }
