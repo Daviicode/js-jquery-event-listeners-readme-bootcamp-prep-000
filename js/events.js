@@ -8,6 +8,6 @@ function getIt(){
   
 function frameIt(){
     $('imag').on('load', function(){
-     windows.$('imag').addClass('tasty');
-    } 
+     $('imag').addClass('tasty');
+    }); 
 }
